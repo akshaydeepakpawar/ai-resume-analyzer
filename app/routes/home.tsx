@@ -20,7 +20,6 @@ export default function Home() {
           <h1 className="">Track Your Applications & Resume Rating</h1>
           <h2>Review your submission and receive AI-powered feedback.</h2>
         </div>
-      </section>
       {resumes.length > 0 && (
         <div className="resume-section">
           {resumes.map((resume) => (
@@ -28,6 +27,7 @@ export default function Home() {
           ))}
         </div>
       )}
+      </section>
     </main>
   );
 }
